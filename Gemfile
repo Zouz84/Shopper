@@ -14,6 +14,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
 gem 'gmaps4rails'
+gem 'pg', '0.20.0'
 
 group :development, :test do
   gem 'sqlite3'
@@ -44,7 +45,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

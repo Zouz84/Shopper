@@ -8,6 +8,3 @@
 Category.create(title: 'Chatte')
 Category.create(title: 'Chienne')
 Category.create(title: 'Cochonne')
-
-
-
